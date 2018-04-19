@@ -1,6 +1,6 @@
 # Python-selenium-auto-test
 个人学习web自动化参考  
-一.环境准备  
+一.环境准备
 
 python3.x 、pycharm   
 mac下安装配置的python路径为：/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6  
