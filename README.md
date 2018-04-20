@@ -75,6 +75,6 @@ locator=(By.Id,'kw')
 
 try:
    WebDriverWait(dr,30,0.5).until(EC.presence_of_element_located(locator))
-   print("等待30秒，每0.5秒查看一次，知道找到id为kw的元素")
+   print("等待30秒，每0.5秒查看一次，直到找到id为kw的元素")
 finally:
 dr.quit()
