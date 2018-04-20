@@ -9,7 +9,7 @@ web自动化参考
 
 ---
 ## 二.定位元素
-- 元素定位的方式多种多样，我这里下列定位方式：
+元素定位的方式多种多样，我这里下列定位方式：   
 **1.通关id或者name来定位**     
 find_elment_by_id&find_elment_by_name   
 find_elments_by_tag_name("input")[0].send_keys("python")多个input元素的时候用s，表明第几个    
