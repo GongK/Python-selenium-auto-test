@@ -42,4 +42,13 @@ driver.find_element_by_xpath("//form[@id='login']/ui/input[1]")
  
   #选择select定位
         Select(driver.find_element_by_name("isImportant2")
-               ).select_by_visible_text(u"是")
+               ).select_by_visible_text(u"是")   
+## 等待   
+selenium中等待的方式有3中，分别是强制等待、隐式等待、显式等待    
+
+- 强制等待，强制等待需要在文件开头导入时间模块，再在需要的地方使用sleep方法
+```
+from time import sleep
+sleep(5) //睡眠5秒
+
+```
