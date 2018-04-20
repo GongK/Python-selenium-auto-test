@@ -26,7 +26,7 @@ find_element_by_xpath  绝对定位
 find_element_by_link_text 根据链接的文字
 find_element_by_partial_link_text   链接的部分文字定位
 参考链接：
-https://www.cnblogs.com/yufeihlf/p/5717291.html
+https://www.cnblogs.com/yufeihlf/p/5717291.html   
 **6.父子双层定位**      
 sub_element = driver.find_element_by_id('xx').find_element_by_link_text('Another_action')
 
